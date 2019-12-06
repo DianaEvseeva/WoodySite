@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="js/bootstrap-4.4.1/css/bootstrap.min.css">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>WOODY - игрушки из дерева</title>
+  </head>
+  <body>
+  	<div class="container shadow-sm p-0 bg-white">
+<div class="container h5 header">	
+  		<header>
+  			<!-- brand -->
+	  		<nav class="navbar navbar-expand-lg navbar-light flex-nowrap pl-0 pr-0 pt-1 pb-1 p-md-2">
+			  <a class="navbar-brand mr-auto" href="index.html">
+			  	<div class="flex-column text-right pr-2">
+			  	<img src="images/logo.png" class="img-fluid">	  	 
+			  	<!-- font-weight-bold	 -->
+			  	<div class="navbar-brand-text text-uppercase small">Игрушки из дерева для детей</div>	
+			  	</div>
+			  </a>
+			  <!-- toggler -->
+			  <button class="navbar-toggler justify-content-end ml-auto p-1 p-md-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <!-- menu -->
+			  <div class="collapse navbar-collapse justify-content-end text-nowrap" id="navbarSupportedContent">
+			    <ul class="navbar-nav text-uppercase d-flex justify-content-between"> 
+			      <li class="nav-item dropdown btn-group">	
+				        <a class="nav-link" href="catalog.html">
+				          Каталог товаров
+				        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">О нас</a>
+			      </li>				 	      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Доставка и оплата</a>
+			      </li>			      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Контакты</a>
+			      </li>		     
+			      
+			      <li class="nav-item active">
+			        <a class="nav-link pr-0" href="admin.html">ADMIN</a> <!-- disabled -->
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+</div>
+
+<div class="container p-0 ">
+		<div class="container pt-4 pb-2 ml-0 mr-0">
+			<div class="h1">Каталог товаров</div>
+		</div>
+
+<div class="container p-0 ml-0 mr-0 mt-3">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs item-tabs h4 border-0" id="myTab" role="tablist">
+			  <li class="nav-item">
+			    <a class="nav-link active border-top-0 border-left-0" id="tile-tab" data-toggle="tab" href="#tile" role="tab" aria-controls="tile" aria-selected="true">Плитка</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link  border-top-0 border-right-0" id="profile-tab" data-toggle="tab" href="#table" role="tab" aria-controls="table" aria-selected="false">Таблица</a>
+			  </li>
+			  
+			</ul>
+
+			<!-- TILE panes -->
+			<div class="tab-content  pl-3 pr-3 mb-5">
+			<div class="tab-pane active" id="tile" role="tabpanel" aria-labelledby="tile-tab">
+
+				<div class="catalog-items">
+					<div class="row">
+						<div class="col-mb-2 col-lg-4 mb-4">
+							<div class="card rounded-0 border-0 h-100 justify-content-center">	
+							  	<button type="button" class="btn btn-warning shadow rounded-circle p-0 w-25 m-auto">
+							  		<a class="m-0 p-0" href="add-item.html">
+							  			<img class="card-img img-fluid p-0 img-fluid" src="images/plus.png" alt="Добавить товар">
+							  		</a>
+							  	</button>					  
+							</div>
+						</div>
+						<div class="col-mb-2 col-lg-4 mb-4">
+							<div class="card shadow rounded-0 border-0 h-100">
+							  <div class="card-header p-0 border-bottom-0 h-auto"> 
+							    <h4 class="m-2"><span class="badge badge-danger shadow-sm rounded-0 ">Скидка</span></h4>
+							    <h4 class="m-2"><span class="badge badge-info shadow-sm rounded-0">Хит продаж</span></h4>
+							  </div>
+							  	<img class="card-img img-fluid rounded-0 mh-50" src="images/items/dlya_sayta.png" alt="Card image cap">
+							  <div class="card-body p-2">
+							    <h5 class="card-text">Кроватка-качалка "Лисичка"</h5>
+							    <p class="card-title">Цена: <del>36,61 руб.</del> 32,55 руб.</p>
+							  </div>
+							  <div class="row container-fluid p-0 m-0">
+							    <button type="button" class="col-9 btn btn-primary rounded-0"><a href="#">Редактировать</a></button>
+							    <button type="button" class="col-3 btn btn-danger rounded-0">
+							    	<a class="m-0 p-0" href="#">
+								  		<img class="delete-img" src="images/delete.png" alt="Add">
+								  	</a>
+							  	</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-mb-2 col-lg-4 mb-4">
+							<div class="card shadow rounded-0 border-0 h-100">
+							  <div class="card-header p-0 border-bottom-0"> 
+							    <h4 class="m-2"><span class="badge badge-success shadow-sm rounded-0">Новинка</span></h4>
+							    <!-- <h4 class="m-2"><span class="badge badge-info shadow-sm rounded-0">Хит продаж</span></h4> -->
+							  </div>
+							  	<img class="card-img img-fluid rounded-0 mh-50" src="images/items/betonom2.png" alt="Card image cap">
+							  <div class="card-body p-2">
+							    <h5 class="card-text">Спецтехника. Бетономешалка</h5>
+							    <p class="card-title">Цена: 49,34 руб.</p>
+							  </div>
+							  <div class="row container-fluid p-0 m-0">
+							    <button type="button" class="col-9 btn btn-primary rounded-0"><a href="#">Редактировать</a></button>
+							    <button type="button" class="col-3 btn btn-danger rounded-0">
+							    	<a class="m-0 p-0" href="#">
+								  		<img class="delete-img" src="images/delete.png" alt="Add">
+								  	</a>
+							  	</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col-mb-2 col-lg-4 mb-4">
+							<div class="card shadow rounded-0 border-0 h-100">
+							  <div class="card-header p-0 border-bottom-0"> 
+							    <!-- <h4 class="m-2"><span class="badge badge-success shadow-sm rounded-0">Новинка</span></h4> -->
+							    <h4 class="m-2"><span class="badge badge-info shadow-sm rounded-0">Хит продаж</span></h4>
+							  </div>
+							  	<img class="card-img img-fluid rounded-0 mh-50" src="images/items/samosval-1.png" alt="Card image cap">
+							  <div class="card-body p-2">
+							    <h5 class="card-text">Спецтехника. Самосвал</h5>
+							    <p class="card-title">Цена: 44,51 руб.</p>
+							  </div>
+							  <div>
+							  <div class="row container-fluid p-0 m-0">
+							    <button type="button" class="col-9 btn btn-primary rounded-0"><a href="#">Редактировать</a></button>
+							    <button type="button" class="col-3 btn btn-danger rounded-0">
+							    	<a class="m-0 p-0" href="#">
+								  		<img class="delete-img" src="images/delete.png" alt="Add">
+								  	</a>
+							  	</button>
+							  </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-mb-2 col-lg-4 mb-4">
+							<div class="card shadow rounded-0 border-0 h-100">
+							  <div class="card-header p-0 border-bottom-0"> 
+							    <!-- <h4 class="m-2"><span class="badge badge-success shadow-sm rounded-0">Новинка</span></h4>
+							    <h4 class="m-2"><span class="badge badge-info shadow-sm rounded-0">Хит продаж</span></h4>-->
+							  </div>
+							  	<img class="card-img img-fluid rounded-0 mh-50" src="images/items/img_5914_0.png" alt="Card image cap">
+							  <div class="card-body p-2">
+							    <h5 class="card-text">Кухня</h5>
+							    <p class="card-title">Цена: 15,26 руб.</p>
+							  </div>
+							  <div class="row container-fluid p-0 m-0">
+							    <button type="button" class="col-9 btn btn-primary rounded-0"><a href="#">Редактировать</a></button>
+							    <button type="button" class="col-3 btn btn-danger rounded-0">
+							    	<a class="m-0 p-0" href="#">
+								  		<img class="delete-img" src="images/delete.png" alt="Add">
+								  	</a>
+							  	</button>
+							  </div>
+							</div>
+						</div> 
+					</div>				
+				</div>
+
+			  </div>
+			<!-- TABLE panes -->
+			<div class="tab-pane " id="table" role="tabpanel" aria-labelledby="table-tab">
+
+		      	<div class="card rounded-0 border-0 w-25 justify-content-center m-auto">
+					<button type="button" class="btn btn-warning shadow rounded-circle w-25 p-0 m-auto">
+						<a class="m-0 p-0" href="add-item.html">
+							<img class="card-img img-fluid p-0 img-fluid" src="images/plus.png" alt="Добавить товар">
+						</a>
+				 	</button>					  
+				</div>
+				<table class="table table-hover mt-3 border table-responsive-sm">
+				  <thead>
+				    <tr class="table-active">
+				      <th scope="col">Арт.</th>
+				      <th scope="col">Ярлыки</th>
+				      <th scope="col">Название</th>
+				      <th scope="col">Цена</th>
+				      <th scope="col">Редактировать / Удалить</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">02482</th>
+				      <td>
+				      	<span class="badge badge-danger shadow-sm rounded-0 ">Скидка</span> 
+				      	<br />
+				      	<span class="badge badge-info shadow-sm rounded-0">Хит продаж</span>
+				      </td>
+				      <td class="font-weight-bold">Кроватка-качалка "Лисичка"</td>
+				      <td><del>36,61 руб.</del> 32,55 руб.</td>
+				      <td class="d-flex justify-content-between">
+						<a href="#"><button type="button" class="btn btn-primary rounded-0 font-weight-normal">Редактировать</button></a>
+
+				      		<a class="m-0 p-0" href="#">
+				      	<button type="button" class="btn btn-danger rounded-0">
+				      			<img class="delete-img" src="images/delete.png" alt="Add">
+				      	</button>
+				      		</a>
+				      </td>
+				    </tr>
+				    <tr>
+				      <th scope="row">02604</th>
+				      <td>
+				      	<span class="badge badge-success shadow-sm rounded-0">Новинка</span>
+				      </td>
+				      <td class="font-weight-bold">Спецтехника. Бетономешалка</td>
+				      <td>49,34 руб.</td>
+				      <td class="d-flex justify-content-between">
+						<a href="#"><button type="button" class="btn btn-primary rounded-0 font-weight-normal">Редактировать</button></a>
+						
+				      		<a class="m-0 p-0" href="#">
+				      	<button type="button" class="btn btn-danger rounded-0">
+				      			<img class="delete-img" src="images/delete.png" alt="Add">
+				      	</button>
+				      		</a>
+				      </td>
+				    </tr>
+				    <tr>
+				      <th scope="row">02598</th>
+				      <td>
+				      	<span class="badge badge-info shadow-sm rounded-0">Хит продаж</span>
+				      </td>
+				      <td class="font-weight-bold">Спецтехника. Самосвал</td>
+				      <td>44,51 руб.</td>
+				      <td class="d-flex justify-content-between">
+						<a href="#"><button type="button" class="btn btn-primary rounded-0 font-weight-normal">Редактировать</button></a>
+						
+				      		<a class="m-0 p-0" href="#">
+				      	<button type="button" class="btn btn-danger rounded-0">
+				      			<img class="delete-img" src="images/delete.png" alt="Add">
+				      	</button>
+				      		</a>
+				      </td>
+				    </tr>
+				    <tr>
+				      <th scope="row">2161</th>
+				      <td>
+				      	-
+				      </td>
+				      <td class="font-weight-bold">Кухня</td>
+				      <td>15,26 руб.</td>
+				      <td class="d-flex justify-content-between">
+						<a href="#"><button type="button" class="btn btn-primary rounded-0 font-weight-normal">Редактировать</button></a>
+						
+				      		<a class="m-0 p-0" href="#">
+				      	<button type="button" class="btn btn-danger rounded-0">
+				      			<img class="delete-img" src="images/delete.png" alt="Add">
+				      	</button>
+				      		</a>
+				      </td>
+				    </tr>
+				  </tbody>
+				</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			  </div>
+			</div>
+
+
+
+
+		<div class="catalog-list container mb-4 ml-0">			
+			
+		</div>
+		<!-- <div class="container text-center mb-5">
+			<button type="button" class="btn btn-warning btn-lg text-uppercase h1 font-weight-bold rounded-0 show-more border-0 shadow-sm"><a href="catalog.html">Показать еще</a></button>
+		</div> -->
+
+		<div class="row container p-3 ml-0 mr-0 footer bg-secondary text-light justify-content-between">
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">shop@woody.by</div>	
+					<div class="">+375 29 113 19 31</div>
+					<div class="">+375 29 535 19 31</div>	
+				</div>
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">Время работы:</div>	
+					<div class="">Пн-Чт: с 9:00 до 18:00</div>
+					<div class="">
+Пт: с 9:00 до 17:00</div>		
+				</div>
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">Другие наши проекты:</div>	
+					<a href="#"><div class="shadow-sm w-75 mb-1 bg-white"><img src="images/logo-laser.png" class="img-fluid"></div></a>
+					<a href="#"><div class="shadow-sm w-75 mt-1 bg-white"><img src="images/logo-bukvy.png" class="img-fluid"></div></a>			
+				</div>
+				<div class="col-mb-6 col-lg-3 small d-flex flex-column mt-3 mt-lg-0">
+					<div>ООО "Телефорс"</div>
+					<div>Юр. адрес: 220140, г. Минск, ул. Притыцкого, 62/2-406а</div>
+					<div>УНП: 101140778</div>
+					<div class="mt-auto normal font-weight-bold text-right">&copy; Evseeva Diana, 2019</div>	
+				</div>		
+				</div>
+			</div>
+</div>
+
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

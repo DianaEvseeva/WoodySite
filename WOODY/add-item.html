@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="js/bootstrap-4.4.1/css/bootstrap.min.css">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>WOODY - игрушки из дерева</title>
+  </head>
+  <body>
+  	<div class="container shadow-sm p-0 bg-white">
+<div class="container  h5 header">	
+  		<header>
+  			<!-- brand -->
+	  		<nav class="navbar navbar-expand-lg navbar-light flex-nowrap pl-0 pr-0 pt-1 pb-1 p-md-2">
+			  <a class="navbar-brand mr-auto" href="index.html">
+			  	<div class="flex-column text-right pr-2">
+			  	<img src="images/logo.png" class="img-fluid">	  	 
+			  	<!-- font-weight-bold	 -->
+			  	<div class="navbar-brand-text text-uppercase small">Игрушки из дерева для детей</div>	
+			  	</div>
+			  </a>
+			  <!-- toggler -->
+			  <button class="navbar-toggler justify-content-end ml-auto p-1 p-md-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <!-- menu -->
+			  <div class="collapse navbar-collapse justify-content-end text-nowrap" id="navbarSupportedContent">
+			    <ul class="navbar-nav text-uppercase d-flex justify-content-between"> 
+			      <li class="nav-item dropdown btn-group active">	
+				        <a class="nav-link" href="catalog.html">
+				          Каталог товаров
+				        </a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">О нас</a>
+			      </li>				 	      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Доставка и оплата</a>
+			      </li>			      
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Контакты</a>
+			      </li>		     
+			      
+			      <li class="nav-item">
+			        <a class="nav-link pr-0" href="admin.html">ADMIN</a> <!-- disabled -->
+			      </li>	 
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+</div>
+
+<div class="container p-0">
+	<div class="container mt-3"><a href="admin.html"><button type="button" class="btn btn-outline-secondary">Назад</button></a></div>	
+	<div class="container pt-3 pb-2 ml-0 mr-0">
+		<div class="h1">Добавить товар</div>
+	</div>
+	<div class="container ml-0 mr-0">	
+	<form action="">
+		<div class="row form-group">
+			<div class="col col-md-5">
+				<label for="title" class="h5">Введите название товара: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control" id="title" placeholder="Название товара">	
+			</div>
+		</div>
+		<div class="row form-group">
+			<div class="col col-md-5">
+				<label for="picture" class="h5">Добавить основное изображение: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="file" class="form-control-file" id="picture">
+			</div>
+		</div>
+<!-- Characteristics -->
+		<div class="row form-group mb-2">
+			<div class="col col-md-5">
+				<label for="picture" class="h5">Введите характеристики</label>		
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right align-items-center">
+				<label for="age" class="h6 mt-2">Возраст: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control" id="age" placeholder="от X лет">	
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right">
+				<label for="materials" class="h6 mt-2">Материал: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control" id="materials" placeholder="Материал1, материал2, материал3, ...">	
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right">
+				<label for="count" class="h6 mt-2">Количество деталей: </label>	
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="count" placeholder="X">	
+			</div>
+		</div>
+<!-- Parameters -->
+		<div class="row form-group mb-2 mt-3">
+			<div class="col col-md-5">
+				<label for="toy_size" class="h5">Введите параметры</label>		
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right align-items-center">
+				<label for="toy_size" class="h6 mt-2">Размер собранной игрушки (д × ш × в): </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="toy_size" placeholder="XX.X × XX.X × XX.X см">	
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right">
+				<label for="package_size" class="h6 mt-2">Размер упаковки (д × ш × в): </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="package_size" placeholder="XX.X × XX.X × XX.X см">	
+			</div>
+		</div>
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right">
+				<label for="weight" class="h6 mt-2">Вес: </label>	
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="weight" placeholder="XX.XX кг">	
+			</div>
+		</div>
+	<!-- Article -->
+		<div class="row form-group mt-4">
+			<div class="col col-md-5">
+				<label for="article" class="h5">Введите артикул товара: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="article" placeholder="XXXXXX">	
+			</div>
+		</div>
+	<!-- Cost -->
+		<div class="row form-group mt-4">
+			<div class="col col-md-5">
+				<label for="cost" class="h5">Введите цену товара: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="cost" placeholder="XX.XX руб.">	
+			</div>
+		</div>
+	<!-- Labels -->
+		<div class="row form-group mt-4">
+			<div class="col col-md-5">
+				<label for="cost" class="h5">Выберите ярлык(-и): </label>		
+			</div>
+			<div class="col">
+				<div class="form-check form-check-inline">
+				  <input class="form-check-input" type="checkbox" id="new" value="option1">
+				    <label class="form-check-label badge badge-success" for="new"><h5>Новинка</h5></label>
+				</div>		
+			</div>
+			<div class="col">
+				<div class="form-check form-check-inline">
+				  <input class="form-check-input" type="checkbox" id="hit" value="option1">
+				    <label class="form-check-label badge badge-info" for="hit"><h5>Хит сезона</h5></label>
+				</div>		
+			</div>
+			<div class="col">
+				<div class="form-check form-check-inline">
+				  <input class="form-check-input" type="checkbox" id="discount" value="option1">
+				    <label class="form-check-label badge badge-warning" for="discount"><h5>Скидка</h5></label>
+				</div>		
+			</div>
+		</div>	
+		<div class="row form-group mb-2">
+			<div class="col col-md-5 text-right">
+				<label for="discount_cost" class="h6 mt-2">Введите цену со скидкой: </label>	
+			</div>
+			<div class="col col-md-7">
+    			<input type="text" class="form-control w-50" id="discount_cost" placeholder="XX.XX руб.">	
+			</div>
+		</div>
+	<!-- Description -->
+		<div class="row form-group mb-2 mt-4">
+			<div class="col col-md-5">
+				<label for="description" class="h5">Введите описание:</label>		
+			</div>
+			<div class="col-12">
+    			<textarea type="text" class="form-control w-100" rows="7" id="description" placeholder="Описание товара"></textarea>	
+			</div>
+		</div>
+		<div class="row form-group mt-3">
+			<div class="col col-md-5">
+				<label for="gallery_images" class="h5">Добавить картинки в галерею: </label>		
+			</div>
+			<div class="col col-md-7">
+    			<input type="file" class="form-control-file" id="gallery_images" multiple="">
+			</div>
+		</div>
+		<!-- ADD BUTTON -->
+		<div class="row form-group mb-5 mt-4 text-left">
+			<div class="col">
+				<button type="submit" class="btn btn-success btn-lg text-uppercase h1 font-weight-bold rounded-0 show-more border-0 shadow-sm">Добавить</button>
+			</div>
+		</div>
+	</form>
+	</div>
+
+		<div class="row container p-3 ml-0 mr-0 footer bg-secondary text-light justify-content-between">
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">shop@woody.by</div>	
+					<div class="">+375 29 113 19 31</div>
+					<div class="">+375 29 535 19 31</div>	
+				</div>
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">Время работы:</div>	
+					<div class="">Пн-Чт: с 9:00 до 18:00</div>
+					<div class="">
+Пт: с 9:00 до 17:00</div>		
+				</div>
+				<div class="col-mb-6 col-lg-3 mt-3 mt-lg-0">
+					<div class="h5">Другие наши проекты:</div>	
+					<a href="#"><div class="shadow-sm w-75 mb-1 bg-white"><img src="images/logo-laser.png" class="img-fluid"></div></a>
+					<a href="#"><div class="shadow-sm w-75 mt-1 bg-white"><img src="images/logo-bukvy.png" class="img-fluid"></div></a>			
+				</div>
+				<div class="col-mb-6 col-lg-3 small d-flex flex-column mt-3 mt-lg-0">
+					<div>ООО "Телефорс"</div>
+					<div>Юр. адрес: 220140, г. Минск, ул. Притыцкого, 62/2-406а</div>
+					<div>УНП: 101140778</div>
+					<div class="mt-auto normal font-weight-bold text-right">&copy; Evseeva Diana, 2019</div>	
+				</div>		
+				</div>
+			</div>
+</div>
+
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
